@@ -59,7 +59,7 @@ export default {
 	<header>
 		<div class="logo">
 			<a href="#home">
-				<img src="\dc-logo-bg.png" alt="">
+				<img src="\dc-logo.png" alt="">
 			</a>
 		</div>
 
