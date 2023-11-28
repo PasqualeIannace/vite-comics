@@ -59,10 +59,9 @@
                         </a>
                     </li>
                 </ul>
-            </div>
 
-            <div class="link">
-                <h3>SHOP</h3>
+
+                <h3 class="py1">SHOP</h3>
 
                 <ul>
                     <li>
@@ -177,6 +176,42 @@
             <img src="dc-logo-bg.png" alt="">
         </div>
     </div>
+
+    <!-- seconda sezione footer -->
+    <div class="secondContainer">
+        <div class="btn">
+            <button>SIGN-UP NOW!</button>
+        </div>
+
+        <div class="socials">
+            <h3>FOLLOW US</h3>
+            <div class="socialBtn">
+                <a href="#">
+                    <img src="footer-facebook.png" alt="">
+                </a>
+            </div>
+            <div class="socialBtn">
+                <a href="#">
+                    <img src="footer-twitter.png" alt="">
+                </a>
+            </div>
+            <div class="socialBtn">
+                <a href="#">
+                    <img src="footer-youtube.png" alt="">
+                </a>
+            </div>
+            <div class="socialBtn">
+                <a href="#">
+                    <img src="footer-pinterest.png" alt="">
+                </a>
+            </div>
+            <div class="socialBtn">
+                <a href="#">
+                    <img src="footer-oeriscope.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped>
@@ -184,6 +219,8 @@
         background-image: url(/footer-bg.jpg);
         padding: 0 4em;
         display: flex;
+        justify-content: space-between;
+        height: 25em;
     }
 
     h3 {
@@ -203,8 +240,48 @@
         display: flex;
     }
 
-    /* .logo img {
+    .link {
+        padding: 3em 0;
+        margin-right: 1.5em;
+    }
+
+    .link h3 {
+        padding-bottom: 1em;
+    }
+    .logo img {
         object-fit: cover;
-    } */
+    }
+
+    /* section 2 */
+    .secondContainer {
+        padding: 0 4em;
+        background: #303030;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+    }
+
+    .socials h3 {
+        color: #0082F9;
+        padding: 0 1em;
+    }
+
+    .socialBtn {
+        padding: 1.5em 0.5em;
+    }
+
+    button {
+        color: white;
+        border: 2px solid #0082F9;
+        background: transparent;
+        padding: 1em;
+        font-weight: bold;
+        font-size: 1em;
+    }
 
 </style>
