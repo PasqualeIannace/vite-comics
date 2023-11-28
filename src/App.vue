@@ -1,15 +1,15 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
 	components: {
-		HelloWorld
+		NavBar
 	}
 }
 </script>
 
 <template>
-	<HelloWorld />
+	<NavBar />
 </template>
 
 <style scoped>
