@@ -2,12 +2,14 @@
 import NavBar from './components/NavBar.vue'
 import Section1 from './components/Section1.vue'
 import Section2 from './components/Section2.vue'
+import Foot from './components/Footer.vue'
 
 export default {
 	components: {
 		NavBar,
 		Section1,
-		Section2
+		Section2,
+		Foot
 	}
 }
 </script>
@@ -21,8 +23,11 @@ export default {
 		<Section1 />
 		<Section2 />
 	</main>
-
+	
 	<!-- footer -->
+	<footer>
+		<Foot />
+	</footer>
 
 </template>
 
