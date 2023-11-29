@@ -15,3 +15,7 @@ body {
 .py1 {
   padding: 1em 0;
 }
+
+.upperCase {
+  text-transform: uppercase;
+}
