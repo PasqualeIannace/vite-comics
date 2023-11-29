@@ -207,7 +207,7 @@
             </div>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-oeriscope.png" alt="">
+                    <img src="footer-periscope.png" alt="">
                 </a>
             </div>
         </div>
@@ -250,6 +250,8 @@
     }
     .logo img {
         object-fit: cover;
+        height: 25em;
+        width: 35em;
     }
 
     /* section 2 */
