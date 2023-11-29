@@ -83,6 +83,8 @@ export default {
 		display: flex;
 		align-items: center;
 		height: 10vh;
+		margin: 0 auto;
+    	max-width: 1200px;
 	}
 
 	.logo {

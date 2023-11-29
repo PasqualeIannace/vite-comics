@@ -15,21 +15,22 @@ export default {
 		<img src="/jumbotron.jpg" alt="">
 	</div>
 
-	<div class="products">
+	<div class="productsBg">
+		<div class="desktop products">
+			<div class="info">
+				CURRENT SERIES
+			</div>
 
-		<div class="info">
-			CURRENT SERIES
-		</div>
+			<div v-for="product in products" class="card">
+				<img :src="product.thumb" alt="">
+				<p class="upperCase">{{ product.series }}</p>
+				<span>{{ product.price }}</span>
+			</div>
 
-		<div v-for="product in products" class="card">
-			<img :src="product.thumb" alt="">
-			<p class="upperCase">{{ product.series }}</p>
-			<span>{{ product.price }}</span>
-		</div>
-
-		<div class="more">
-			<div class="moreBtn">
-				LOAD MORE
+			<div class="more">
+				<div class="moreBtn">
+					LOAD MORE
+				</div>
 			</div>
 		</div>
 	</div>
@@ -53,8 +54,11 @@ div {
 	object-position: top;
 }
 
-.products {
+.productsBg {
 	background-color: #1C1C1C;
+	height: auto;
+}
+.products {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 3em 4em 0 4em;

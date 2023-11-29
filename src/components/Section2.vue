@@ -41,22 +41,27 @@ export default {
 </script>
 
 <template>
-	<div class="section">
-        <div class="product" v-for="prodotto in prodotti">
-           <a :href="prodotto.url">
-                <div>
-                    <img :src="prodotto.src" alt="">
-                </div>
-                <div class="px1">
-                    {{ prodotto.text }}
-                </div>
-           </a> 
+	<div class="sectionBg">
+        <div class="desktop section">
+            <div class="product" v-for="prodotto in prodotti">
+            <a :href="prodotto.url">
+                    <div>
+                        <img :src="prodotto.src" alt="">
+                    </div>
+                    <div class="px1">
+                        {{ prodotto.text }}
+                    </div>
+            </a> 
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
-	.section {
+    .sectionBg {
+        background-color: #0082F9;
+    }
+    .section {
         color: white;
         background-color: #0082F9;
         height: 15vh;
