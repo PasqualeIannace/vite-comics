@@ -232,6 +232,10 @@
         text-decoration: none;
     }
 
+    li a:hover {
+        color: white;
+    }
+
     li {
         list-style: none;
     }

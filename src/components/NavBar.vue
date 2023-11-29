@@ -67,7 +67,9 @@ export default {
 			<ul>
 				<li v-for="link in menuLinks">
 					<a :href="link.url">
-						{{ link.text }}
+						<div class="borderBottom">
+							{{ link.text }}
+						</div>
 					</a>
 				</li>
 			</ul>
@@ -103,5 +105,22 @@ export default {
 	li a {
 		color: #1C1C1C;
 		text-decoration: none;
+	}
+
+	li a:hover {
+		color: #0082f9;
+	}
+
+	ul {
+		display: flex;
+	}
+	.borderBottom {
+		display: flex;
+    	height: 7.2em;
+    	align-items: center;
+	}
+
+	.borderBottom:hover {
+		border-bottom: 4px solid #0082f9;
 	}
 </style>
